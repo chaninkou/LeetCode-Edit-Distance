@@ -9,7 +9,7 @@ public class FindMinConvertFunction {
 
 		int[][] dp = new int[a + 1][b + 1];
 
-		// Base case, make a to b
+		// Base case
 		for (int i = 0; i <= a; i++) {
 			dp[i][0] = i;
 		}
