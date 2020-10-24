@@ -13,7 +13,6 @@ public class FindMinConvertFunction {
 		for (int i = 0; i <= a; i++) {
 			dp[i][0] = i;
 		}
-
 		for (int j = 0; j <= b; j++) {
 			dp[0][j] = j;
 		}
